@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+:root {
+--roxo: #550527ff;
+--verde: #688e26ff;
+--amarelo: #faa613ff;
+--laranja: #f44708ff;
+--vermelho: #a10702ff;   
+--preto: rgb(17, 17, 17);
+}
+
+body {
+    font-size: 50px;
+    background-color: var(--vermelho);
+    text-align: center;
+    align-items: center;
+    
+}
+
+.titulo {
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--preto)
+}
+
+
+.header{
+    width: auto;
+    background-color: #688e26ff;
+    padding: 20px;
+    text-align: center;
+    color: var(--preto);
+}
+
+.botao {
+    width: 100px;
+    
+}
+
+.estoque {
+    text-align: center;
+}
